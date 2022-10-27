@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class manav {
+    public static void main(String[] args) {
+    Scanner manv = new Scanner(System.in);
+        double armut,afiyat,elma,efiyat,domates,dfiyat,muz,mfiyat,patlican,pfiyat,toplamFiyat;
+
+        System.out.print("Armut : ");
+        armut=manv.nextDouble();
+        afiyat=armut*2.14;
+        System.out.println("Armut fiyatı ="+afiyat);
+
+        System.out.print("Elma : ");
+        elma=manv.nextDouble();
+        efiyat=elma*2.14;
+        System.out.println("Elma fiyatı ="+efiyat);
+
+        System.out.print("Domates : ");
+        domates=manv.nextDouble();
+        dfiyat=domates*2.14;
+        System.out.println("Domates fiyatı ="+dfiyat);
+
+        System.out.print("Muz : ");
+        muz=manv.nextDouble();
+        mfiyat=muz*2.14;
+        System.out.println("Muz fiyatı ="+mfiyat);
+
+        System.out.print("Patlıcan : ");
+        patlican=manv.nextDouble();
+        pfiyat=armut*2.14;
+        System.out.println("Patlıcan fiyatı ="+pfiyat);
+
+        toplamFiyat=afiyat+efiyat+dfiyat+mfiyat+pfiyat;
+        System.out.print("Toplam tutar=" +toplamFiyat);
+
+    }
+}
